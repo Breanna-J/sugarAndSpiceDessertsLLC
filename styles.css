@@ -3,33 +3,15 @@
     background-color: rgb(18, 17, 17);
 header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
         
     
-    h1{
-        width:100%;
-        font-size: 65px;
-        padding-top: 5%;
-        text-align: center;
-        color: white;
-        font-family: "Nanum Myeongjo", serif;
-        font-weight: 700;
-        font-style: normal;
-        
-
-        span{
-            text-align: center;
-            color: #ff006b;
-            font-family: "Poppins", sans-serif;
-            font-weight: 900;
-            font-style: normal;
-        }
-    }
+   
     img{
-        width: 70%;
-        padding: 10%;
+        width: 45%;
+        padding-left: 28%;
     }
     nav{
         display: flex;
@@ -38,6 +20,8 @@ header{
     
         ul{
             display: flex;
+            padding-left: 22%;
+            font-size: 150%;
             list-style-type: none; 
             gap: 5px;
             text-decoration: none;
@@ -73,8 +57,28 @@ header{
                 position: absolute;
                 top: 20px;
                 right:20px;
-                
+                    
+                }
             }
+        }
+    }
+    h1{
+        width:100%;
+        font-size: 65px;
+        padding-top: 5%;
+        text-align: center;
+        color: white;
+        font-family: "Nanum Myeongjo", serif;
+        font-weight: 700;
+        font-style: normal;
+        
+
+        span{
+            text-align: center;
+            color: #ff006b;
+            font-family: "Poppins", sans-serif;
+            font-weight: 900;
+            font-style: normal;
         }
     }
 .nanum-myeongjo-bold {
@@ -89,3 +93,4 @@ header{
     }
     
         
+}
