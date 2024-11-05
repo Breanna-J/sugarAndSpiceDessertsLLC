@@ -34,25 +34,31 @@ header{
     nav{
         display: flex;
         align-items: center;
+        text-decoration: none;
+    
         ul{
             display: flex;
             list-style-type: none; 
             gap: 5px;
+            text-decoration: none;
+            }
             
             li{
                 display: inline-block;
+                text-decoration: none;
+            
                 a{
+                    text-decoration: none;
                     display: inline-block;
                     text-align: center;
                     align-content:space-between ;
                     padding: 10px 20px;/*first number top/bottom and second is left and right*/
                     color:white;
+                
                     &:hover {
                         background:#ff006b;
                         border-radius: 45%;
                         text-decoration: none;
-                        
-
                     }
                 }
             }
@@ -60,6 +66,7 @@ header{
         .hamburger-toggle{
             display: none;
             color:#ff006b;
+            text-decoration: none;
             padding: 10px;
             @media (max-width: 768px) {
                 display: inline-block;
@@ -69,10 +76,7 @@ header{
                 
             }
         }
-        }
     }
-    }
-}
 .nanum-myeongjo-bold {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;
