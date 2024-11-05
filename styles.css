@@ -1,33 +1,76 @@
 *{
     
     background-color: rgb(18, 17, 17);
-    header{
-        display: flex;
-        flex-direction: row;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
         
-    }
+    
     h1{
-        
+        width:100%;
         font-size: 65px;
-        padding-top: 2.5%;
+        padding-top: 5%;
         text-align: center;
         color: white;
         font-family: "Nanum Myeongjo", serif;
         font-weight: 700;
         font-style: normal;
-        width:33%;
+        
 
         span{
             text-align: center;
-            color: rgb(255 0 107);
+            color: #ff006b;
             font-family: "Poppins", sans-serif;
             font-weight: 900;
             font-style: normal;
         }
     }
     img{
-        width:33%;
-        padding-left: 10%;
+        width: 70%;
+        padding: 10%;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            list-style-type: none; 
+            gap: 5px;
+            
+            li{
+                display: inline-block;
+                a{
+                    display: inline-block;
+                    text-align: center;
+                    align-content:space-between ;
+                    padding: 10px 20px;/*first number top/bottom and second is left and right*/
+                    color:white;
+                    &:hover {
+                        background:#ff006b;
+                        border-radius: 45%;
+                        text-decoration: none;
+                        
+
+                    }
+                }
+            }
+        
+        .hamburger-toggle{
+            display: none;
+            color:#ff006b;
+            padding: 10px;
+            @media (max-width: 768px) {
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                right:20px;
+                
+            }
+        }
+        }
+    }
     }
 }
 .nanum-myeongjo-bold {
