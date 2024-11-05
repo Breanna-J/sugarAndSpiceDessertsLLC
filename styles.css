@@ -1,14 +1,21 @@
 *{
     
-    background-color: black;
+    background-color: rgb(18, 17, 17);
+    header{
+        display: flex;
+        flex-direction: row;
+        
+    }
     h1{
-        padding-top: 5%;
+        
         font-size: 65px;
+        padding-top: 2.5%;
         text-align: center;
         color: white;
         font-family: "Nanum Myeongjo", serif;
         font-weight: 700;
         font-style: normal;
+        width:33%;
 
         span{
             text-align: center;
@@ -17,6 +24,10 @@
             font-weight: 900;
             font-style: normal;
         }
+    }
+    img{
+        width:33%;
+        padding-left: 10%;
     }
 }
 .nanum-myeongjo-bold {
