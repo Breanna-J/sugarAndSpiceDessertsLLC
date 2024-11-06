@@ -6,14 +6,14 @@ header{
     display: grid;
     place-items: center;  
 }
-    .logo-holder{ 
-        #logo-photo{
+    
+    #logo-photo{
         display: grid;
         place-items: center;
         padding-left: 16%;
         width: 65%;
         }
-    }
+    
 
     nav{
         display: flex;
@@ -23,7 +23,6 @@ header{
     
         ul{
             display: flex;
-            font-size: 150%;
             list-style-type: none; 
             text-decoration: none;
             }
@@ -33,18 +32,23 @@ header{
                 text-decoration: none;
             }
                 .nav{
+                    column-gap: 15%;
+                    font-size: 200%;
                     text-decoration: none;
                     display: inline-block;
                     text-align: center;
                     align-content:space-between ;
-                    padding: 10px 20px;/*first number top/bottom and second is left and right*/
+                    padding: 10px 30px;/*first number top/bottom and second is left and right*/
                     color:white;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 100;
+                    font-style: normal;
                 
                 &:hover {
                     background:#ff006b;
                     border-radius: 45%;
                     text-decoration: none;
-                }
+                    }
                 }
     main{
         display: grid;
@@ -68,7 +72,6 @@ header{
             font-weight: 800;
             font-style: normal;
         }
-
         h2{
             font-size: 200%;
             color: white; 
@@ -84,8 +87,9 @@ header{
         }
         
         .photos{
+            padding: 20px 30px;
             border-radius: 50%;
-            width: 50%;
+            width: 42%;
         }
       
 .nanum-myeongjo-bold {
