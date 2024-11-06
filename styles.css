@@ -5,26 +5,23 @@
 }
 
 *{
-    padding:10px;
+    place-items: center;
+    margin:10px;
     background-color: var(--black);
 }
     
 header{
-    display: grid;
-    place-items: center;  
+      
 }
     
     #logo-photo{
         display: grid;
-        place-items: center;
-        padding-left: 16%;
         width: 65%;
         }
     
 
     nav{
-        display: flex;
-        align-items: center;
+        
         text-decoration: none;
     }
     
@@ -33,47 +30,35 @@ header{
             list-style-type: none; 
             text-decoration: none;
             }
-            
-            li{
-                display: inline-block;
-                text-decoration: none;
-            }
+        
                 .nav{
-                    column-gap: 15%;
-                    font-size: 200%;
-                    text-decoration: none;
-                    display: inline-block;
-                    text-align: center;
-                    align-content:space-between ;
-                    padding: 10px 30px;/*first number top/bottom and second is left and right*/
+                    
+                    font-size: 160%;
+                    text-decoration: underline;
+                    text-decoration-color: #ff006b;
+                    text-decoration-thickness: 0.1em;
                     color:white;
                     font-family: "Poppins", sans-serif;
                     font-weight: 100;
                     font-style: normal;
+                    border-radius: 50%;
                 
                 &:hover {
                     background:var(--pink);
-                    border-radius: 45%;
-                    text-decoration: none;
+                    border-radius: 45%;                   
                     }
                 }
-    main{
-        display: grid;
-        place-items: center; 
-    } 
         h1{
+            
+            color: var(--white);
             margin-bottom: 0%;
             font-size: 65px;
             text-align: center;
-            color: var(--white);
             font-family: "Nanum Myeongjo", serif;
             font-weight: 300;
             font-style: normal;
         }
         .desserts{
-            display: grid;
-            place-items: center top;
-
             margin-top: 0%;
             color: var(--pink);
             font-family: "Poppins", sans-serif;
@@ -94,14 +79,11 @@ header{
             font-style: normal;
             border-radius: 50%;
         }
-        
         .photos{
-            
-            flex-direction:column;
-            place-items: center;
-            padding: 20px 10px;
+            padding: 5px;
+            margin-left: 3%;
             border-radius: 50%;
-            width: 45%;
+            width:20%;
         }
 
             .photos:hover{
@@ -110,34 +92,7 @@ header{
             }
  
 
-    #about-header{
-        display: flex;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    #about-logo-photo{
-        width: 100%;
-    }
-    #about-nav-list{
-        width: 50%;
-        padding-top: 10%;
-    }
-    #about-nav-items{
-        font-size: 60%; 
-    }
-    .about-h1{
-        width: 100%; 
-        text-align: center; 
-        justify-content: center;
-        border-bottom: 5px solid var(--pink); 
-        line-height: 0.1em;
-        margin: 10px 0 20px;
-
-    }
-    .about-h1-span{
-        background:var(--black); 
-        padding: 50px; 
-    }
+    
 
 
 
