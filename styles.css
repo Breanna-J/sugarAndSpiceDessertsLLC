@@ -1,5 +1,12 @@
+:root{
+    --pink: #ff006b;
+    --white: white;
+    --black: #121111;
+}
+
 *{
-    background-color: rgb(18, 17, 17);
+    padding:10px;
+    background-color: var(--black);
 }
     
 header{
@@ -45,7 +52,7 @@ header{
                     font-style: normal;
                 
                 &:hover {
-                    background:#ff006b;
+                    background:var(--pink);
                     border-radius: 45%;
                     text-decoration: none;
                     }
@@ -55,43 +62,86 @@ header{
         place-items: center; 
     } 
         h1{
-            font-size: 300%;
             margin-bottom: 0%;
             font-size: 65px;
             text-align: center;
-            color: white;
+            color: var(--white);
             font-family: "Nanum Myeongjo", serif;
             font-weight: 300;
             font-style: normal;
         }
         .desserts{
-            align-items: center;
+            display: grid;
+            place-items: center top;
+
             margin-top: 0%;
-            color: #ff006b;
+            color: var(--pink);
             font-family: "Poppins", sans-serif;
             font-weight: 800;
             font-style: normal;
         }
         h2{
             font-size: 200%;
-            color: white; 
+            color: var(--white); 
         } 
 
         .love{
-            color: #ff006b;
+            color: var(--pink);
             font-size: 200%;
             font-family: "Dancing Script", cursive;
             font-optical-sizing: auto;
             font-weight: 700;
             font-style: normal;
+            border-radius: 50%;
         }
         
         .photos{
-            padding: 20px 30px;
+            
+            flex-direction:column;
+            place-items: center;
+            padding: 20px 10px;
             border-radius: 50%;
-            width: 42%;
+            width: 45%;
         }
-      
+
+            .photos:hover{
+                width: 50%;
+                transition-timing-function:linear;
+            }
+ 
+
+    #about-header{
+        display: flex;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #about-logo-photo{
+        width: 100%;
+    }
+    #about-nav-list{
+        width: 50%;
+        padding-top: 10%;
+    }
+    #about-nav-items{
+        font-size: 60%; 
+    }
+    .about-h1{
+        width: 100%; 
+        text-align: center; 
+        justify-content: center;
+        border-bottom: 5px solid var(--pink); 
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+
+    }
+    .about-h1-span{
+        background:var(--black); 
+        padding: 50px; 
+    }
+
+
+
+
 .nanum-myeongjo-bold {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;

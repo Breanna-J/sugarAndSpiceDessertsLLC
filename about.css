@@ -1,0 +1,105 @@
+
+:root{
+    --pink: #ff006b;
+    --white: white;
+    --black: #121111;
+}
+
+*{
+    padding:10px;
+    background-color: var(--black);
+}
+    
+header{
+    display: grid;
+    place-items: center;  
+}
+    
+    #logo-photo{
+        display: grid;
+        place-items: center;
+        padding-left: 16%;
+        width: 65%;
+        }
+    
+
+    nav{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+        ul{
+            display: flex;
+            list-style-type: none; 
+            text-decoration: none;
+            }
+            
+            li{
+                display: inline-block;
+                text-decoration: none;
+            }
+                .nav{
+                    column-gap: 15%;
+                    font-size: 200%;
+                    text-decoration: none;
+                    display: inline-block;
+                    text-align: center;
+                    align-content:space-between ;
+                    padding: 10px 30px;/*first number top/bottom and second is left and right*/
+                    color:white;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 100;
+                    font-style: normal;
+                
+                &:hover {
+                    background:var(--pink);
+                    border-radius: 45%;
+                    text-decoration: none;
+                    }
+                }
+
+header{
+    display: flex;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#about-logo-photo{
+    width: 100%;
+}
+#about-nav-list{
+    width: 50%;
+    padding-top: 10%;
+}
+#about-nav-items{
+    font-size: 60%; 
+}
+.about-h1{
+    width: 100%; 
+    text-align: center; 
+    justify-content: center;
+    border-bottom: 5px solid var(--pink); 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+}
+.about-h1-span{
+    background:var(--black); 
+    padding: 50px; 
+}
+
+
+
+
+.nanum-myeongjo-bold {
+font-family: "Nanum Myeongjo", serif;
+font-weight: 700;
+font-style: normal;
+}
+.poppins-medium {
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+    
