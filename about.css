@@ -6,7 +6,6 @@
 }
 
 *{
-    padding:10px;
     background-color: var(--black);
 }
     
@@ -74,18 +73,49 @@ header{
 #about-nav-items{
     font-size: 60%; 
 }
-.about-h1{
+
+img{
+    float: right;
+    padding-top: 70px;
+    width:50%;
+}
+h1{ 
+    float: left;
     width: 100%; 
     text-align: center; 
     justify-content: center;
+    color: var(--white);
     border-bottom: 5px solid var(--pink); 
     line-height: 0.1em;
     margin: 10px 0 20px;
-
-}
-.about-h1-span{
+    }
+p span{
     background:var(--black); 
-    padding: 50px; 
+    padding:20px;
+    color: var(--white);
+    font-size: 170%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 50%;
+}
+span{
+    background:var(--black); 
+    padding: 50px;
+    padding-bottom: 150px;
+    color: var(--white);
+    font-size: 250%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 50%;
+}
+
+p{
+    color:var(--white);
+    padding-top:100px;
 }
 
 
