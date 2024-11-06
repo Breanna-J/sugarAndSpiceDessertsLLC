@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#" class="logo-holder" id="index">
+        <a  href="#" class="logo-holder" id="index">
             <div class="logo">
                 <img id="logo-photo" src="./sugarAndSpiceDessertsPhotos/sugarAndSpiceLogo.png" alt="circular logo of Sugar and Spice Desserts LLC. The logo has dots around the edge with a cupcake and cookie in the middle and the company's name under the desserts." width="20%">
             </div>
@@ -25,28 +22,36 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a class="nav" href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About Us</a>
+                    <a class="nav" href="#about">About Us</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Us</a>
+                    <a class="nav" href="#contact">Contact Us</a>
                 </li>
                 <li>
-                    <a href="#specials">What's Baking This Month</a>
+                    <a class="nav" href="#specials">Baking This Month</a>
                 </li>
                 <li>
-                    <a href="#custom">Custom Orders</a>
+                    <a class="nav" href="#custom">Custom Orders</a>
                 </li>
             </ul>
-            <a href="#" class="hamburger-toggle" onclick="toggleHamburgerMenu();">
-                <img src="./sugarAndSpiceDessertsPhotos/cookies.png" alt="cake toggleHamburgerMenu">
-            </a>
         </nav>
     </header>
     <main>
-        <h1>SUGAR AND SPICE <br> <span>DESSERTS</span></h1>
+        <div>
+            <h1>
+                Baked with happiness,
+                decorated with <span class="love">love</span>
+            </h1>
+        </div>
+        <div class="photos">
+            <img class="photos" src="./sugarAndSpiceDessertsPhotos/chocolate-chip-cheesecake-stuffed-cookie.png" alt="chocolate chip cookie stuffed with cheesecake">
+            <img class="photos" src="./sugarAndSpiceDessertsPhotos/dad-bod-mms-cookie-hazelnut-filling.png" alt="m&ms chocolate chip cookie stuffed hazlenut spread">
+            <img class="photos" src="./sugarAndSpiceDessertsPhotos/red-velvet-brownie-stuffed-cookie.png" alt="red velvet cookie stuffed with a brownie">
+            <img class="photos" src="./sugarAndSpiceDessertsPhotos/pumpkin-churro-cookie-with-dulce-de-leche-drizzle.png" alt="pumpkin cookie rolled in pumpkin spice sugar and drizzled with dulce de leche">
+        </div>
     </main>
 </body>
 </html>

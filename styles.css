@@ -1,37 +1,38 @@
 *{
-    
     background-color: rgb(18, 17, 17);
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-        
+}
     
-   
-    img{
-        width: 45%;
-        padding-left: 28%;
+header{
+    display: grid;
+    place-items: center;  
+}
+    .logo-holder{ 
+        #logo-photo{
+        display: grid;
+        place-items: center;
+        padding-left: 16%;
+        width: 65%;
+        }
     }
+
     nav{
         display: flex;
         align-items: center;
         text-decoration: none;
+    }
     
         ul{
             display: flex;
-            padding-left: 22%;
             font-size: 150%;
             list-style-type: none; 
-            gap: 5px;
             text-decoration: none;
             }
             
             li{
                 display: inline-block;
                 text-decoration: none;
-            
-                a{
+            }
+                .nav{
                     text-decoration: none;
                     display: inline-block;
                     text-align: center;
@@ -39,48 +40,54 @@ header{
                     padding: 10px 20px;/*first number top/bottom and second is left and right*/
                     color:white;
                 
-                    &:hover {
-                        background:#ff006b;
-                        border-radius: 45%;
-                        text-decoration: none;
-                    }
+                &:hover {
+                    background:#ff006b;
+                    border-radius: 45%;
+                    text-decoration: none;
                 }
-            }
-        
-        .hamburger-toggle{
-            display: none;
-            color:#ff006b;
-            text-decoration: none;
-            padding: 10px;
-            @media (max-width: 768px) {
-                display: inline-block;
-                position: absolute;
-                top: 20px;
-                right:20px;
-                    
                 }
-            }
-        }
-    }
-    h1{
-        width:100%;
-        font-size: 65px;
-        padding-top: 5%;
-        text-align: center;
-        color: white;
-        font-family: "Nanum Myeongjo", serif;
-        font-weight: 700;
-        font-style: normal;
-        
-
-        span{
+    main{
+        display: grid;
+        place-items: center; 
+    } 
+        h1{
+            font-size: 300%;
+            margin-bottom: 0%;
+            font-size: 65px;
             text-align: center;
-            color: #ff006b;
-            font-family: "Poppins", sans-serif;
-            font-weight: 900;
+            color: white;
+            font-family: "Nanum Myeongjo", serif;
+            font-weight: 300;
             font-style: normal;
         }
-    }
+        .desserts{
+            align-items: center;
+            margin-top: 0%;
+            color: #ff006b;
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        h2{
+            font-size: 200%;
+            color: white; 
+        } 
+
+        .love{
+            color: #ff006b;
+            font-size: 200%;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+        
+        .photos{
+            border-radius: 50%;
+            width: 50%;
+        }
+      
 .nanum-myeongjo-bold {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;
@@ -93,4 +100,3 @@ header{
     }
     
         
-}
