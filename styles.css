@@ -17,35 +17,41 @@
         }
     
 
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        text-decoration: none;
-    }
-    
-        ul{
-           
-            list-style-type: none; 
+        nav{
+            display: flex;
+            align-items: center;
             text-decoration: none;
-            }
+        }
         
-                .nav{
-                    
-                    font-size: 160%;
-                    text-decoration: underline;
-                    text-decoration-color: #ff006b;
-                    text-decoration-thickness: 0.1em;
-                    color:white;
-                    font-family: "Poppins", sans-serif;
-                    font-weight: 100;
-                    font-style: normal;
-                    border-radius: 50%;
-                
-                &:hover {
-                    background:var(--pink);
-                    border-radius: 45%;                   
-                    }
+            ul{
+                display: flex;
+                list-style-type: none; 
+                text-decoration: none;
                 }
+                
+                li{
+                    display: inline-block;
+                    text-decoration: none;
+                }
+                    .nav{
+                        column-gap: 15%;
+                        font-size: 200%;
+                        text-decoration: none;
+                        display: inline-block;
+                        text-align: center;
+                        align-content:space-between ;
+                        padding: 10px 30px;/*first number top/bottom and second is left and right*/
+                        color:white;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 100;
+                        font-style: normal;
+                    
+                    &:hover {
+                        background:var(--pink);
+                        border-radius: 45%;
+                        text-decoration: none;
+                        }
+                    }
         h1{
             
             color: var(--white);
@@ -78,7 +84,7 @@
             border-radius: 50%;
         }
         .photos{
-            padding: 5px;
+            display: inline-block;
             margin-left: 3%;
             border-radius: 50%;
             width:20%;
