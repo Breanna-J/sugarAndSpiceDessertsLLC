@@ -18,7 +18,8 @@
     
 
     nav{
-        
+        display: flex;
+        flex-wrap: wrap;
         text-decoration: none;
     }
     
