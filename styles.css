@@ -13,7 +13,7 @@
   
     #logo-photo{
         display: grid;
-        width: 50%;
+        width: 40%;
         }
     
 
@@ -108,6 +108,54 @@
                     margin: 0 auto;
                 }
  
+                 h1 .about-h1{ 
+                    float: left;
+                    width: 100%; 
+                    text-align: center; 
+                    justify-content: center;
+                    color: var(--white);
+                    border-bottom: 5px solid var(--pink); 
+                    line-height: 0.1em;
+                    margin: 10px 0 20px;
+                    }
+
+                 p span .about-h1-span{
+                    background:var(--black); 
+                    padding:10px;
+                    color: var(--white);
+                    line-height: 2em;
+                    font-family: "Dancing Script", cursive;
+                    font-optical-sizing: auto;
+                    font-weight: 500;
+                    font-style: normal;
+                    border-radius: 50%;
+                    margin-left: .1em;
+                    margin-top: 1em;
+                }
+                span .about-h1-span{
+                    background:var(--black); 
+                    padding: 20px;
+                    
+                    color: var(--white);
+                    font-size: 2em;
+                    font-family: "Dancing Script", cursive;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    border-radius: 50%;
+                }
+                a{
+                    color: var(--pink);
+                    font-size: 200%;
+                    font-family: "Dancing Script", cursive;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    border-radius: 50%;
+                    text-decoration: none;
+            }
+                
+                
 .contact{
     margin: auto;
     box-sizing: border-box;
@@ -116,7 +164,7 @@
     font-style: normal;
     }
     section{
-        display: table-column-group;
+        
         justify-content: center;
         align-items: center;
         min-height: 100vh;
