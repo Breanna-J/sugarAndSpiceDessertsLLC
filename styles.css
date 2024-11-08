@@ -68,50 +68,55 @@
             font-weight: 300;
             font-style: normal;
         }
-        .desserts{
-            margin-top: 0%;
-            color: var(--pink);
-            font-family: "Poppins", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-        }
+            .desserts{
+                margin-top: 0%;
+                color: var(--pink);
+                font-family: "Poppins", sans-serif;
+                font-weight: 800;
+                font-style: normal;
+            }
         h2{
             font-size: 200%;
             color: var(--white); 
         } 
 
-        .love{
-            color: var(--pink);
-            font-size: 200%;
-            font-family: "Dancing Script", cursive;
-            font-optical-sizing: auto;
-            font-weight: 700;
-            font-style: normal;
-            border-radius: 50%;
+            .love{
+                color: var(--pink);
+                font-size: 200%;
+                font-family: "Dancing Script", cursive;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                border-radius: 50%;
         }
-        .photos{
-            display: inline;
-            padding-left: 10%;
-            margin-left: 3%;
-            border-radius: 50%;
-            width:30%;
-        }
-
-            .photos:hover{
-                width: 25%;
-                transition:100ms;
+      
+            .photos-div{
+                display:flexbox;
+                 
+                
             }
+                .photos{
+                    display: inline;
+                    margin: 30px;
+                    width:20%;  
+                }
+
+                .photos:hover{
+                    
+                    width: 22%;
+                    transition:100ms;
+                    margin: 0 auto;
+                }
  
 .contact{
-    margin: 0;
-    padding: 0%;
+    margin: auto;
     box-sizing: border-box;
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;
     font-style: normal;
     }
     section{
-        
+        display: table-column-group;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
@@ -125,11 +130,10 @@
             font-family: "Nanum Myeongjo", serif;
             font-weight: 700;
             font-style: normal;
-            margin-bottom: 10px;
-            
-         
+            margin-bottom: 10px;   
     }
     p{
+        
         display: flex;
         color: white;
         text-align: center;
@@ -156,10 +160,6 @@
         justify-content: space-between;
     }
 
-    form .input-box{
-        display: flex;
-        
-    }
 
 
     .field .item{
@@ -181,7 +181,7 @@
     }
     form #textarea-field .item{
         resize: none;
-        width: min-content;
+        
     }
     
     form button:hover{
@@ -194,7 +194,7 @@
         text-align: left;
         margin: -5px 0 10px ;
         display: none;
-        
+
     }
 
 
