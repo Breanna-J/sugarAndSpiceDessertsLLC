@@ -11,7 +11,7 @@
     #logo-photo{
         display: grid;
         width: 50%;
-        align-items: center;
+        padding-left: 20%;
         }
        
             ul{
