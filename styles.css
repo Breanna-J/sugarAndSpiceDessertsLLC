@@ -11,7 +11,10 @@
     #logo-photo{
         display: grid;
         width: 50%;
-        padding-left: 25%;
+        @media screen and (max-width: 900px){
+            padding-left: 25%;
+        }
+        
         }
        
             ul{
