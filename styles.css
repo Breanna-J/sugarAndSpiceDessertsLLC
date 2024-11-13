@@ -18,14 +18,17 @@
                 flex-wrap: wrap;
                 list-style-type: none; 
                 text-decoration: none;
+                place-items: center;
                 
                 }
                 li{
                     animation: fade-up 1s;
                     display: inline-block;
+                    text-align: center;
                     text-decoration: none;
                     place-items: center;
                 }
+                    
                     .nav{  
                         column-gap: 20%;
                         font-size: 90%;
@@ -43,11 +46,11 @@
             width: 100%;
             color: var(--white);
             padding-top: 20px;
-            padding-bottom: 10px;
+            padding-bottom: 25px;
             border-top:5px dotted var(--white);
             border-bottom:5px dotted var(--white);
             margin-top: 2%;
-            font-size: 2em;
+            font-size: 200%;
             text-align: center;
             font-family: "Nanum Myeongjo", serif;
             font-weight: 300;
@@ -61,7 +64,7 @@
                 font-style: normal;
             }
         h2{
-            font-size: 1.8em;
+            font-size: 180%;
             color: var(--white); 
         }
             .love{
@@ -122,7 +125,7 @@
     h3{  
         color: var(--white);
         padding-top: 50px;
-        font-size: 2.5em;
+        font-size: 200%;
         font-family: "Nanum Myeongjo", serif;
         font-weight: 700;
         font-style: normal;
@@ -133,7 +136,7 @@
         text-align: center;
         color: white;
         font-size: 2em;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
 
     }
     h5{
@@ -161,7 +164,9 @@
         border-color: var(--white); 
         box-shadow: 0 0 15px;         
 }
-
+.contact-home{
+    text-align: center;
+}
 .contact form{
         width:100%
          
