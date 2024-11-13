@@ -4,21 +4,15 @@
     --black: #121111;
 }
 
-*{
+*{  
     place-items: center;
     background-color: var(--black);  
 }
     #logo-photo{
         display: grid;
-        width: 40%;
+        width: 50%;
         }
-        nav{
-            width:45%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            text-decoration: none;
-        }
+       
             ul{
                 display: flex;
                 flex-wrap: wrap;
@@ -38,8 +32,7 @@
                         text-decoration: none;
                         display: inline-block;
                         text-align: center;
-                        align-items:center;
-                        padding: 10px 30px;/*first number top/bottom and second is left and right*/
+                        padding: 8px;/*first number top/bottom and second is left and right*/
                         color:white;
                         font-family: "Poppins", sans-serif;
                         font-weight: 100;
@@ -50,7 +43,7 @@
             width: 100%;
             color: var(--white);
             padding-top: 20px;
-            padding-bottom: 30px;
+            padding-bottom: 10px;
             border-top:5px dotted var(--white);
             border-bottom:5px dotted var(--white);
             margin-top: 2%;
@@ -108,7 +101,16 @@
                 a:hover{
                     text-shadow: 0 0 10px;
                 }
-.contact{
+.about-img{
+    width:65%;
+    padding-left:17%;
+    justify-items: center;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+    .contact{
     place-items: center;
     box-sizing:border-box;
     font-family: "Nanum Myeongjo", serif;
@@ -160,10 +162,11 @@
         box-shadow: 0 0 15px;         
 }
 
-    .contact form{
+.contact form{
         width:100%
-        justify-items: center; 
+         
     }
+
     .field .item{
         width: 100%;
         align-items: center;
