@@ -6,44 +6,39 @@
 
 *{
     place-items: center;
-    
-    background-color: var(--black);
-    
+    background-color: var(--black);  
 }
-  
     #logo-photo{
-        
         display: grid;
         width: 40%;
         }
-        
-
         nav{
             width:45%;
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             text-decoration: none;
         }
-        
             ul{
                 display: flex;
+                flex-wrap: wrap;
                 list-style-type: none; 
                 text-decoration: none;
-                }
                 
+                }
                 li{
                     animation: fade-up 1s;
                     display: inline-block;
                     text-decoration: none;
+                    place-items: center;
                 }
-                    .nav{
-                        
-                        column-gap: 15%;
-                        font-size: 170%;
+                    .nav{  
+                        column-gap: 20%;
+                        font-size: 90%;
                         text-decoration: none;
                         display: inline-block;
                         text-align: center;
-                        align-content:center;
+                        align-items:center;
                         padding: 10px 30px;/*first number top/bottom and second is left and right*/
                         color:white;
                         font-family: "Poppins", sans-serif;
@@ -51,21 +46,15 @@
                         font-style: normal;
                     }
                     
-                    &:hover {
-                        background:var(--black);
-                        border-radius: 45%;
-                        text-decoration: none;
-                        box-shadow: 0 0 6px;
-                        }
-                    
         h1{
             width: 100%;
             color: var(--white);
-            padding-bottom: 50px;
+            padding-top: 20px;
+            padding-bottom: 30px;
             border-top:5px dotted var(--white);
             border-bottom:5px dotted var(--white);
             margin-top: 2%;
-            font-size: 3em;
+            font-size: 2em;
             text-align: center;
             font-family: "Nanum Myeongjo", serif;
             font-weight: 300;
@@ -79,25 +68,20 @@
                 font-style: normal;
             }
         h2{
-            font-size: 10%;
+            font-size: 1.8em;
             color: var(--white); 
         }
-        
-
             .love{
                 color: var(--pink);
-                font-size: 150%;
+                font-size: 1.8em;
                 font-family: "Dancing Script", cursive;
                 font-optical-sizing: auto;
                 font-weight: 700;
                 font-style: normal;
                 border-radius: 50%;
         }
-      
             .photos-div{
-                display:flexbox;
-                 
-                
+                display:flex;   
             }
                 .photos{
                     display: inline;
@@ -106,9 +90,7 @@
                     padding-left: 6%;
                     width:15%;  
                 }
-
                 .photos:hover{
-                    
                     width: 20%;
                     transition:100ms;
                     margin: 0 auto;
@@ -126,31 +108,43 @@
                 a:hover{
                     text-shadow: 0 0 10px;
                 }
-                
-     
 .contact{
     place-items: center;
     box-sizing:border-box;
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;
     font-style: normal;
-    width: 100vw;
+    width: 100%;
     background-color: var(--black);
     } 
-    h3{ 
-        
+    h3{  
         color: var(--white);
         padding-top: 50px;
-        font-size: 3em;
+        font-size: 2.5em;
         font-family: "Nanum Myeongjo", serif;
         font-weight: 700;
         font-style: normal;
         margin-bottom: 10px;   
     }
+    h4{
+        color: var(--white);
+        text-align: center;
+        color: white;
+        font-size: 2em;
+        margin-bottom: 20px;
+
+    }
+    h5{
+        
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
     p{ 
         text-align: center;
         color: white;
-        font-size: 1.75em;
+        font-size: 1.25em;
         margin-bottom: 20px;
     }
     button{
@@ -162,19 +156,16 @@
         border-radius: 50%;
         padding: 15px;
         border-style: dotted;
-        border-color: var(--white);
-        
-        box-shadow: 0 0 15px;
-               
+        border-color: var(--white); 
+        box-shadow: 0 0 15px;         
 }
-    .contact form{
-        width:100vw;
-        justify-content: center;
-        
-    }
 
+    .contact form{
+        width:100%
+        justify-items: center; 
+    }
     .field .item{
-        width: 50vw;
+        width: 100%;
         align-items: center;
         padding: 15px 5px;
         margin-bottom: 25px;
@@ -185,7 +176,6 @@
         font-family: "Poppins", sans-serif;
         font-weight: 800;
         font-style: normal;
-
     }
     .field .item::placeholder{
         color: var(--white);
@@ -194,21 +184,23 @@
         padding-left: 5%;
     }
     form #textarea-field .item{
-        resize: none;
-        
+        resize: none;   
     }
-    
     form button:hover{
         box-shadow: none;
     }
-
     .field .error-txt{
         font-size: .5em;
         color: var(--pink);
         text-align: left;
         margin: -5px 0 10px ;
         display: none;
-
+    }
+    
+    .menu-img{
+        width: 85%;
+        padding-top: 7%;
+        padding-bottom: 7%;
     }
 @keyframes fade-up {
     0%{
@@ -220,8 +212,6 @@
         transform: translateY(0px) scale(1) ;
     }
 }
-
-
 .nanum-myeongjo-bold {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 700;
